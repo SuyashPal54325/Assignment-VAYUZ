@@ -56,7 +56,7 @@ export default function ServicesSection() {
   };
 
   return (
-    <section className="bg-zinc-900 text-white py-16 px-6 sm:px-8 lg:px-12">
+    <section className="bg-zinc-900 text-white py-12 sm:py-16 lg:py-20 px-4 sm:px-8 lg:px-12">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <h2 className="text-center text-4xl font-bold font-serif">
@@ -72,7 +72,7 @@ export default function ServicesSection() {
         </p>
 
         {/* Content */}
-        <div className="mt-12 flex flex-col lg:flex-row gap-12">
+        <div className="mt-10 sm:mt-12 flex flex-col lg:flex-row gap-8 lg:gap-12">
           {/* Accordion */}
           <div className="flex-1 space-y-6">
             {services.map((service, idx) => (
@@ -124,7 +124,7 @@ export default function ServicesSection() {
             <img
               src="https://media.istockphoto.com/id/1349722626/photo/close-up-of-a-males-hand-paying-bill-with-credit-card-contactless-payment-on-smartphone-in-a.jpg?s=2048x2048&w=is&k=20&c=nbRPnNJK0Zpp410vXH3HsJ8k0nCZpjzkL1Ov8pNmbUM=" // replace with actual image path
               alt="Services Visual"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-full h-auto"
             />
           </div>
         </div>

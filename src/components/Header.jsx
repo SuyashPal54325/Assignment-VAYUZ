@@ -2,7 +2,7 @@ import React from 'react'
 import logoVayu from '../assets/VAYUZ_Main-Logo_Ver_201612111-300x70-300x70.png'
 export default function Header() {
   return (
-    <header className="bg-zinc-900 text-white w-64 min-h-screen sticky top-0 flex flex-col justify-between p-6 border-r-2 border-gray-500">
+    <header className="bg-zinc-900 text-white w-full lg:w-64 min-h-[3.5rem] lg:min-h-screen sticky top-0 flex lg:flex-col justify-between p-4 lg:p-6 border-b lg:border-b-0 lg:border-r-2 border-gray-500 z-10">
       {/* Top section */}
       <div>
         {/* Logo */}
@@ -29,7 +29,7 @@ export default function Header() {
         </div>
 
         {/* Nav Links */}
-        <nav className="mt-8 space-y-6 text-sm">
+        <nav className="mt-4 lg:mt-8 space-y-2 lg:space-y-6 text-sm">
           <a href="#appdev" className="block hover:text-gray-300">
             App Development
           </a>
@@ -45,7 +45,7 @@ export default function Header() {
         </nav>
 
         {/* Bottom Image + Text */}
-        <div className="mt-40">
+        <div className="mt-8 lg:mt-40">
           <img
             src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // replace with your image path
             alt="Workspace"

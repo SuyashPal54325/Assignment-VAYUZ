@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactSection() {
   return (
-    <section className="bg-zinc-900 text-white py-16 px-6 sm:px-8 lg:px-12">
+    <section className="bg-zinc-900 text-white py-12 sm:py-16 lg:py-20 px-4 sm:px-8 lg:px-12">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12">
         {/* Left Column */}
         <div className="flex-1 flex flex-col justify-between">
@@ -35,7 +35,7 @@ export default function ContactSection() {
 
         {/* Right Column - Contact Form */}
         <div className="flex-1">
-          <h2 className="text-5xl font-serif mb-8">Connect With Us</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-6 lg:mb-8">Connect With Us</h2>
           <form className="space-y-6 max-w-md">
             <div>
               <input
@@ -61,7 +61,7 @@ export default function ContactSection() {
             <div>
               <button
                 type="submit"
-                className="px-8 py-2 rounded-full bg-cyan-600 hover:bg-cyan-500 transition font-semibold"
+                className="px-6 sm:px-8 py-2 rounded-full bg-cyan-600 hover:bg-cyan-500 transition font-semibold"
               >
                 SUBMIT
               </button>

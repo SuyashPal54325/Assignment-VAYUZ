@@ -21,12 +21,12 @@ const ArrowUpRight = ({ className = "" }) => (
 
 export default function FlutterSection() {
   return (
-    <section className="bg-gradient-to-b from-zinc-900 via-zinc-900 to-zinc-950 text-white py-16 px-6 sm:px-8 lg:px-12">
+    <section className="bg-gradient-to-b from-zinc-900 via-zinc-900 to-zinc-950 text-white py-12 sm:py-16 lg:py-20 px-4 sm:px-8 lg:px-12">
       <div className="max-w-7xl">
       
 
         {/* Top Hero Row */}
-        <div className="flex flex-col lg:flex-row items-center gap-10">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-10">
           {/* Left text */}
           <div className="flex-1">
             <h1 className="text-4xl font-bold leading-tight">
@@ -44,7 +44,7 @@ export default function FlutterSection() {
           <div className="flex-1 relative">
             <img
               src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-full h-auto"
             />
             <motion.img
               src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
